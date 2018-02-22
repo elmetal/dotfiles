@@ -1,0 +1,6 @@
+[[plugins]]
+repo = 'suan/vim-instant-markdown'
+on_ft = ['markdown']
+hook_add = '''
+  let g:instant_markdown_autostart = 0
+'''
