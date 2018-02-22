@@ -38,6 +38,8 @@ set nu
 set ruler
 set cursorline
 set cursorcolumn
+highlight CursorColumn ctermbg=239
+highlight CursorColumn ctermfg=255
 set scrolloff=4
 set sidescrolloff=5
 set virtualedit=onemore
