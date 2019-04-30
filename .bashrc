@@ -20,7 +20,6 @@ function pu {
 
 case "${OSTYPE}" in
 darwin*)
-    #export LSCOLORS=Ehfxcxdxbxegedabagacad
     alias ls="ls -G"
     ;;
 linux*)
@@ -32,5 +31,6 @@ esac
 alias vi='vim'
 # for Git
 alias gs='git status'
+alias gits='git status'
 alias gd='git diff'
 alias gitdiff='git diff'
