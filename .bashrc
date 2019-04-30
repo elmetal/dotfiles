@@ -2,7 +2,11 @@
     
 # Source global definitions
 if [ -f /etc/bashrc ]; then
-        . /etc/bashrc
+    . /etc/bashrc
+fi
+
+if [ -f ~/.bash_alias ]; then
+    . ~/.bash_alias
 fi
     
 # User specific aliases and functions
@@ -18,19 +22,3 @@ function pu {
     fi
 }
 
-case "${OSTYPE}" in
-darwin*)
-    alias ls="ls -G"
-    ;;
-linux*)
-    alias ls='ls --color'
-    ;;
-esac
-
-# for vim
-alias vi='vim'
-# for Git
-alias gs='git status'
-alias gits='git status'
-alias gd='git diff'
-alias gitdiff='git diff'

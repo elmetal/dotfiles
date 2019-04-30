@@ -1,0 +1,19 @@
+# .bash_alias
+
+case "${OSTYPE}" in
+darwin*)
+    alias ls="ls -G"
+    ;;
+linux*)
+    alias ls='ls --color'
+    ;;
+esac
+
+# for vim
+alias vi='vim'
+# for Git
+alias gs='git status'
+alias gits='git status'
+alias gd='git diff'
+alias gitdiff='git diff'
+
