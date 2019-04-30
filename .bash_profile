@@ -5,16 +5,20 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
-. ~/.local/cdj.sh
+#for bash_completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+
+if [ -f ~/.local/cdj.sh ]; then
+    . ~/.local/cdj.sh
+fi
 
 # for PS1 Customize
 # to display git branch
 function parse_git_branch {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ [\1]/'
 }
-
-. /usr/local/etc/bash_completion.d/git-prompt.sh
-. /usr/local/etc/bash_completion.d/git-completion.bash
 
 # activate colors
 export CLICOLOR=1

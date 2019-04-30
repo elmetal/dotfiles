@@ -29,7 +29,6 @@ linux*)
 esac
 
 # for vim
-alias vim='/usr/local/Cellar/vim/8.0.1200/bin/vim'
 alias vi='vim'
 # for Git
 alias gs='git status'
