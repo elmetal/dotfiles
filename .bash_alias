@@ -11,9 +11,13 @@ esac
 
 # for vim
 alias vi='vim'
+
 # for Git
 alias gs='git status'
 alias gits='git status'
 alias gd='git diff'
 alias gitdiff='git diff'
+
+# for pass
+alias rn4="cat /dev/urandom | LC_CTYPE=C tr -dc '0-9' | fold -w 4 | head -n 1"
 
