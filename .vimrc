@@ -71,3 +71,4 @@ nnoremap t o<Esc>
 nnoremap T O<Esc>
 " 編集設定
 set clipboard+=unnamed
+
