@@ -7,3 +7,9 @@ $ cd sourcekit-lsp
 $ swift build -c release
 $ mv .build/release/sourcekit-lsp /usr/local/bin
 ```
+
+## setup node
+```
+$ brew install nodenv
+```
+

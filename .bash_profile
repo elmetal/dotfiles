@@ -14,6 +14,9 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
 fi
 
+export PATH="$HOME/.nodenv/bin:$PATH"
+eval "$(nodenv init -)"
+
 if [ -f ~/.local/cdj.sh ]; then
     . ~/.local/cdj.sh
 fi
