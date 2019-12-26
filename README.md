@@ -9,6 +9,9 @@ $ mv .build/release/sourcekit-lsp /usr/local/bin
 ```
 
 ## setup node
+### nodenv
+[nodenv](https://github.com/nodenv/nodenv)
+
 ```
 $ brew install nodenv
 ```
