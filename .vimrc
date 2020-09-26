@@ -65,7 +65,6 @@ nnoremap <Esc><Esc> :nohlsearch <CR>
 " 入力設定
 set expandtab
 set tabstop=2
-set smartindent
 
 nnoremap t o<Esc>
 nnoremap T O<Esc>
